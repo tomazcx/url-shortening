@@ -13,10 +13,10 @@ module.exports = {
                 'waving-hand': 'wave .5s forwards',
             },
             backgroundImage: {
-                'shorten-destkop': "url('./src/assets/bg-shorten-desktop.svg')",
-                'shorten-mobile': "url('./src/assets/bg-shorten-mobile.svg')",
-                'boost-destkop': "url('./src/assets/bg-boost-desktop.svg')",
-                'boost-mobile': "url('./src/assets/bg-boost-mobile.svg')"
+                'shorten-destkop': "url('/src/assets/bg-shorten-desktop.svg')",
+                'shorten-mobile': "url('/src/assets/bg-shorten-mobile.svg')",
+                'boost-destkop': "url('/src/assets/bg-boost-desktop.svg')",
+                'boost-mobile': "url('/src/assets/bg-boost-mobile.svg')"
             },
             fontFamily: {
                 sans: "Poppins, sans-serif"
