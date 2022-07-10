@@ -67,7 +67,7 @@ export const Content = () => {
 
                     <span className="button rounded-full">Get Started</span>
                 </div>
-                <img src={illustrationWorking} alt="Illustration working" className=" box-border " />
+                <img src={illustrationWorking} alt="Illustration working" className=" relative left-4 lg:left-24 box-border " />
             </section>
             <section className="bg-gray-100 w-full flex-col flex items-center ">
                 <div className="flex-col flex items-center w-10/12 relative bottom-16">
