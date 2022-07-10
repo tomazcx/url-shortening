@@ -59,7 +59,7 @@ export const Content = () => {
 
     return (
         <main className="flex flex-col w-full mx-auto items-center gap-36 ">
-            <section className="flex flex-col-reverse items-center justify-between gap-4 lg:pl-32 px-4 lg:flex-row over">
+            <section className="flex flex-col-reverse items-center justify-between gap-4 lg:pl-28 px-4 lg:flex-row over">
                 <div className="flex flex-col items-center lg:items-start gap-4">
                     <h1 className="text-5xl sm:text-6xl font-bold text-violet-800 text-center lg:text-left">More than just shorter links</h1>
                     <p className="text-gray-400 text-center sm:text-left">  Build your brand’s recognition and get detailed insights
@@ -83,7 +83,7 @@ export const Content = () => {
                     {links.map(link => <ShortedLink key={link.shorted} link={link.full} shorted={link.shorted} />)}
                 </div>
                 <div className="flex flex-col items-center">
-                    <h1 className="font-bold text-violet-900 text-4xl mb-8 text-center">Advanced Settings</h1>
+                    <h1 className="font-bold text-violet-900 text-4xl mb-8 text-center">Advanced Statistics</h1>
                     <p className="text-gray-400 text-center"> Track how your links are performing across the web with our <br />
                         advanced statistics dashboard.</p>
                 </div>
@@ -93,9 +93,9 @@ export const Content = () => {
                         <Card key={0} title="Brand Recognition" text="Boost your brand recognition with each click. Generic links don’t 
   mean a thing. Branded links help instil confidence in your content." icon={brandRecognition} topPos={"0"} />
                         <Card key={1} title="Detailed Records" text="Gain insights into who is clicking your links. Knowing when and where 
-  people engage with your content helps inform better decisions." icon={detailedRecords} topPos={"8"} />
+  people engage with your content helps inform better decisions." icon={detailedRecords} topPos={"10"} />
                         <Card key={2} title="Fully Customizable" text="Improve brand awareness and content discoverability through customizable 
-  links, supercharging audience engagement." icon={fullyCustomized} topPos={"16"} />
+  links, supercharging audience engagement." icon={fullyCustomized} topPos={"20"} />
                     </div>
 
 

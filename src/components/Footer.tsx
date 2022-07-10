@@ -12,7 +12,7 @@ export const Footer = () => {
     const company = ["About", "Our Team", "Carrers", "Contact"]
 
     return (
-        <footer className="bg-violet-900 w-screen box-border text-white flex flex-col items-center lg:items-start lg:grid lg:grid-cols-5 grid-flow-col lg:px-36 pt-20 pb-36">
+        <footer className="bg-violet-900 w-screen box-border text-white flex flex-col items-center lg:items-start lg:grid lg:grid-cols-5 grid-flow-col lg:px-32 pt-20 pb-36">
             <div className='lg:w-[300px]  mb-12 lg:mb-0'>
                 <span className="text-3xl font-bold text-center">Shortly</span>
             </div>
