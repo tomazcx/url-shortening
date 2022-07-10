@@ -2,10 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+*   {
+    box-sizing: border-box;
+}
+
 body{
     margin: 0;
     padding: 0;
+    width: 100vw;
 }
+
+
 
 .nav-menu{
     @apply text-gray-300 cursor-pointer hover:text-gray-500 transition-colors text-sm;

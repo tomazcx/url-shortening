@@ -58,8 +58,8 @@ export const Content = () => {
     }, [links])
 
     return (
-        <main className="flex flex-col mx-auto items-center gap-36 ">
-            <section className="flex flex-col-reverse items-center justify-between gap-4 lg:pl-32 px-4 lg:flex-row overflow-hidden">
+        <main className="flex flex-col w-full mx-auto items-center gap-36 ">
+            <section className="flex flex-col-reverse items-center justify-between gap-4 lg:pl-32 px-4 lg:flex-row over">
                 <div className="flex flex-col items-center lg:items-start gap-4">
                     <h1 className="text-5xl sm:text-6xl font-bold text-violet-800 text-center lg:text-left">More than just shorter links</h1>
                     <p className="text-gray-400 text-center sm:text-left">  Build your brand’s recognition and get detailed insights
@@ -67,7 +67,7 @@ export const Content = () => {
 
                     <span className="button rounded-full">Get Started</span>
                 </div>
-                <img src={illustrationWorking} alt="Illustration working" className="w-screen relative left-12 lg:left-24 object-cover" />
+                <img src={illustrationWorking} alt="Illustration working" className=" box-border " />
             </section>
             <section className="bg-gray-100 w-full flex-col flex items-center ">
                 <div className="flex-col flex items-center w-10/12 relative bottom-16">

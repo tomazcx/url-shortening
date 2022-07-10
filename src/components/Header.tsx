@@ -6,7 +6,7 @@ export const Header = () => {
     const [modal, setModal] = useState(false)
 
     return (
-        <header className='flex flex-col items-center'>
+        <header className='flex flex-col items-center justify-between'>
             <div className="flex px-8 md:px-32 py-8 justify-between w-full items-center">
                 <div className="flex items-center gap-8">
                     <h1 className="text-3xl font-bold">Shortly</h1>

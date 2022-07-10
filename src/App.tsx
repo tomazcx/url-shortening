@@ -5,7 +5,7 @@ import './styles/global.css'
 
 export const App = () =>{
     return (
-        <div className="flex flex-col justify-between min-h-screen w-full">
+        <div className="flex flex-col w-screen">
             <Header />
             <Content />
             <Footer />
